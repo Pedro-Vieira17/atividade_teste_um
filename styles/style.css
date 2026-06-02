@@ -1,0 +1,25 @@
+
+/* Mudanças na NAV */
+nav{ 
+
+    display: flex;  
+    background-color: rgb(31, 31, 189);
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    /* flex: organizar, alinhar e distribuir elemntos */
+    /* cor de fundo */
+    /* cor do texto */
+    /* conteudo para o centro */
+    /* itens para o centro */
+}
+
+/* Mudanças no BODY */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* sem margem */
+    /* espaço interno de um elemento */
+    /* mudança da fonte */
+}
