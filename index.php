@@ -6,6 +6,7 @@ session_start();
 //incluir conexão com o banco
 include("infra/db/connect.php");
 
+// verifica se o usuario enviou um formulario usando POST.
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 // variaveis para receber os dados do usuario enviada do formulario

@@ -18,6 +18,7 @@
         $novoUsuario = $_POST["usuario"];
         $novaSenha = $_POST["senha"];
 
+        // adicionar um novo usuario no banco. usuario e senha.
         $sql = "INSERT INTO users(username, password) VALUES ('$novoUsuario','$novaSenha')";
 
         // mostra se o usuario foi cadastrado ou nao foi cadastrado no banco de Dados. Utilizando ===TRUE
